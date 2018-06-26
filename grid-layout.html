@@ -2,9 +2,13 @@
 <html>
 
 <style>
+	
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	text-align: center;
 }
 .row {
@@ -12,20 +16,20 @@ body {
 	flex-wrap: wrap;	
 }
 .column {
-	flex: 24%;
-	max-width: 24%;
+	flex: 25%;
+	max-width: 25%;
 	padding: 0 4px;
 }
 .column img {
-	margin:4px 0;
+	margin: 4px 0;
 	vertical-align: middle;
 }
 
 /* responsive layout */
 @media (max-width: 992px) {
 	.column {
-		flex: 48%;
-		max-width: 48%;
+		flex: 50%;
+		max-width: 50%;
 	}
 }
 @media (max-width: 480px) {
